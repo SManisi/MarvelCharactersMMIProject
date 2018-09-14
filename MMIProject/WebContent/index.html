@@ -1,0 +1,27 @@
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css">
+<link rel="stylesheet" type="text/css" href="css/mycss.css">
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<title>MMI Marvel Project</title>
+
+<div class="container"> 
+	<h1 class="text-center">MMI Marvel Project</h1>
+	<p class="lead text-center" id="progress"></p>
+    <div style="text-align: center;">
+		 <button type="submit" style="background-color: green" onclick="marvel.render()">GET CHARACTERS</button>
+	</div>
+	<div id="box1" style="text-align: center; width: 500px; float:left; border:1px solid black; overflow-y: auto; height:500px; margin:10px"></div>
+	<div id="box2" style="text-align: center; width: 500px; float:left; border:1px solid black; overflow-y: auto; height:500px; margin:10px"></div>
+	<canvas id="marvelChart" width="200" height="100"></canvas>
+	
+</div>
+<footer class="footer">
+	<div class="container">
+		<p class="text-muted" id="footer"></p>
+	</div>
+</footer>
+<script type="text/javascript" src="js/all-marvel-characters.js"></script>
+<script type="text/javascript" src="js/marvel-character.js"></script>
+<script type="text/javascript" src="js/Chart.js"></script>
+<script type="text/javascript" src="js/marvel-chart.js"></script>
